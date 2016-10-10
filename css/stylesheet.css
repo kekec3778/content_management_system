@@ -1,0 +1,240 @@
+/*
+ * Main Layout
+ */
+body {
+  background-color: brown;
+  background-image: url("../images/background.png");
+  color: white;
+  font-family: Verdana, serif;
+  font-size: 14px;
+  margin: 10px;
+}
+
+#container {
+  background: #000;
+  box-shadow: 18px 18px 0 #0f0f0f;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#login_menu {
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#login_menu2 {
+  background-color: #000;
+  margin-left:auto;
+  margin-right:0;
+  width: 200px;
+}
+
+nav, 
+footer {
+  text-align: center;
+}
+
+nav, 
+#content,
+aside, 
+section, 
+footer {
+  padding: 5px;
+}
+
+header {
+  height: 111px;
+}
+
+header, 
+nav {
+  border-bottom: 3px solid darkred;
+}
+
+nav > ul, 
+nav > ul li,
+footer > ul, 
+footer > ul li {
+  display: inline;
+  list-style: none;
+}
+
+section {
+  /*float: right;*/
+  margin: 0 50px;
+  width: 685px;
+}
+
+#cms_content {
+  font-size: 9px;
+}
+
+footer {
+  border-bottom: 3px solid darkred;
+  border-top: 3px solid darkred;
+  font-size: 10px;
+}
+
+/*
+ * Section Attributes
+ */
+h1 {
+  border-bottom: 1px solid #fff;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+img#home_image {
+  border: 1px solid #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+small {
+  color: orange;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.lessons {
+  margin-left: 25px;
+}
+
+/*
+ * Registration Forms
+ */
+.registration form {
+  width: 420px;
+}
+
+form ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+legend {
+  color: #fff;
+}
+
+.registration label {
+  clear: both;
+  display: inline-block;
+  float: left;
+  padding: 2px;
+  width: 160px;
+}
+
+.registration input[type="text"], 
+.registration input[type="number"] {
+  float: left;
+  width: 220px;
+}
+
+input[type="text"], 
+input[type="number"], 
+textarea {
+  background-color: #eee;
+  border: 1px #999 solid;
+}
+
+input[type="text"], 
+input[type="number"] {
+  width: 200px;
+}
+
+.html_tag input[type="text"] {
+  width: 500px;
+}
+
+#teacher_date_of_birth_year, 
+#teacher_date_of_birth_month,
+#teacher_date_of_birth_day {
+  width: 46px;
+}
+
+#teacher_instrument {
+  clear: both;
+  margin-left: 160px;
+}
+
+#teacher_instrument input[type="checkbox"] {
+
+}
+
+#teacher_instrument label {
+  float: none;
+  line-height: 0;
+  padding-left: 5px;
+  width: 100px;
+}
+
+.registration textarea {
+  width: 320px;
+}
+
+/*input:focus, 
+textarea:focus {
+  background-color: red;
+  color: #fff;
+}*/
+
+.error {
+  color: red;
+  padding: 15px;
+}
+
+#form_controls {
+  text-align: center;
+}
+
+.cms textarea  {
+  width: 100%;
+}
+
+.cms input[type="text"]  {
+  width: 30%;
+}
+
+table.cms {
+  width: 100%;
+}
+
+th.cms {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/*
+ * Links
+ */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus, 
+a:hover {
+  color: orange;
+}
+
+a:active, 
+a:link {
+  text-decoration: none;
+}
